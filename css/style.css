@@ -146,9 +146,9 @@ h6 {
 #header.header-scrolled .img-scroll,
 #header.header-pages .img-scroll{ 
   background: url(../img/logo-blue.png) no-repeat;
-  width: 150px;
+  width: 172px;
   height: 50px;
-  max-width: 89%;
+  max-width: 88%;
   display: flex;
   background-size: cover;
   margin-top:-4px;
@@ -613,7 +613,7 @@ h6 {
 --------------------------------*/
 
 #services {
-  padding: 60px 0 40px 0;
+  padding: 60px 0 110px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 

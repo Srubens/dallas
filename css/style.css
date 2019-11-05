@@ -134,8 +134,8 @@ h6 {
 }
 
 #header .img-scroll{
-  background: url(../img/logo-02.png), no-repeat;
-  width: 324px;
+  background: url(../img/logo-white.png) no-repeat;
+  width: 220px;
   height: 58px;
   max-width: 90%;
   display: flex;
@@ -145,8 +145,8 @@ h6 {
 
 #header.header-scrolled .img-scroll,
 #header.header-pages .img-scroll{ 
-  background: url(../img/logo-01.png), no-repeat;
-  width: 287px;
+  background: url(../img/logo-blue.png) no-repeat;
+  width: 150px;
   height: 50px;
   max-width: 89%;
   display: flex;
@@ -952,7 +952,7 @@ h6 {
 --------------------------------*/
 
 #team {
-  background: #fff;
+  background: #ecf5ff;
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -1246,6 +1246,18 @@ h6 {
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
   color: #ecf5ff;
+}
+
+.main-flex .footer-info,
+.main-flex .footer-contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-flex .footer-contact{
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 #footer .footer-top .social-links a {

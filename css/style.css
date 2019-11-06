@@ -660,6 +660,10 @@ h6 {
   color: #007bff;
 }
 
+#services .btn_services{
+  margin-left: 40px;
+}
+
 #services .description {
   font-size: 14px;
   margin-left: 40px;

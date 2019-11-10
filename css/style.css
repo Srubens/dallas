@@ -133,6 +133,10 @@ h6 {
   
 }
 
+.none{
+  display: none;
+}
+
 #header .img-scroll{
   background: url(../img/logo-white.png) no-repeat;
   width: 220px;
@@ -1411,6 +1415,8 @@ h6 {
 
   #why-us .card {
     margin: 0;
+    margin-bottom: 28px;
+    height: auto;
   }
 }
 

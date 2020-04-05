@@ -278,17 +278,17 @@
               <form name="contact" data-js="contact-form" method="post" data-netlify="true">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
                   </div>
                   <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu email" data-rule="email" data-msg="Please enter a valid email" required />
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="titulo" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="titulo" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"required ></textarea>
                 </div>
                 <div class="text-left"><button type="submit" title="Enviar">Enviar</button></div>
               </form>
